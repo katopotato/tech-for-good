@@ -1,0 +1,25 @@
+#fourD-list{
+	padding-left: 0px;
+}
+
+#keyboard-left {
+	display: inline-block;
+}
+
+#keyboard-right {
+	display: inline-block;
+}
+
+#keyboard-contents {
+	text-align: center;
+	padding-top: 20px;
+}
+
+#keyboard-left {
+	text-align: left;
+	vertical-align: middle;
+}
+
+#tips-tricks-dl {
+	font-weight: normal;
+}

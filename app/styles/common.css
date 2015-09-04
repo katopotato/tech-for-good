@@ -1,0 +1,34 @@
+.navbar-selected {
+	background-color: rgba(91, 133, 221, 1);
+}
+
+.text-muted {
+	color: #777;
+}
+
+.bottom {
+	padding: 20px;
+}
+
+.img-thumbnail {
+    height: auto;
+    max-width: 100%;
+    padding: 4px;
+    line-height: 1.428571429;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    vertical-align: middle;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.tips-and-tricks-icon {
+	padding-top: 5px;
+}
+
+.center-content {
+    text-align: center;
+}
