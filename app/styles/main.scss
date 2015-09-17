@@ -158,6 +158,24 @@ ol {
   -webkit-transform: translate(-250px, 0);
           transform: translate(-250px, 0);
   overflow-y: auto;
+
+  .dropdown{
+    min-width: 125px; /* Set width of the dropdown */
+    background: #3367D6;
+    display: block;
+    p.box-shadow();
+    left: -999em;
+    margin-left: -65px;
+    position: absolute;
+    top: 30px;
+    width: 130px;
+}
+ul li:hover ul.dropdown{
+    display: block; /* Display the dropdown */
+}
+ul li ul.dropdown li{
+    display: block;
+}
 }
 
 .navdrawer-container.open {
