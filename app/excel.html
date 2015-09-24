@@ -45,47 +45,63 @@
         <h1 class="logo" id="logo-header-text">Tips and Tricks for <strong>Lync</strong>, <strong>Outlook</strong>, <strong>Word</strong> and <strong>Excel</strong></h1>
 
         <section class="app-bar-actions">
-        <!-- Put App Bar Buttons Here -->
-        <!-- e.g <button><i class="icon icon-star"></i></button> -->
+        <!-- Put App Bar Buttons Here -->           
+          <!-- <form class="search" method="post" action="index.html">
+            <input type="search" name="q" placeholder="Search..." autocomplete="off">
+            <ul class="search-ac">
+              <li><a href="index.html">Search Result #1<br><span>Description...</span></a></li>
+              <li><a href="index.html">Search Result #2<br><span>Description...</span></a></li>
+              <li><a href="index.html">Search Result #3<br><span>Description...</span></a></li>
+              <li><a href="index.html">Search Result #4</a></li>
+            </ul>
+          </form>    -->
           <h5 class="white-text normal-font-weight">By the Microsoft Tech4Good citizenship team</h5>
         </section>
       </div>
     </header>
 
-    <nav class="navdrawer-container promote-layer">
-    <h4>Menu</h4>    
-      <ul>
+    <nav class="navdrawer-container promote-layer">    
+      <ul >
         <li><a href="index.html">Home</a></li>
         <li><a href="lync.html">Lync</a></li>
         <li><a href="outlook.html">Outlook</a></li>
-        <li><a href="word.html">Word</a></li>    
+        <li><a href="word.html">Word</a></li>
         <li class="navbar-selected">
           <a href="excel.html">Excel</a>
-          <ul class="dropdown">
-            <li><a href="#">Intermediate</a></li>
-            <li><a href="#">Advanced</a></li>
-          </ul>
-        </li>
-        <li>
-          <div class="field">
-            <p class="text search oval"><input type="search" placeholder="Search" /></p>
-          </div>
+          <!-- <div class="dropdown-menu">
+            <div class="dropdown">
+              <ul>
+                <li><a href="excel-intermediate.html" class="dropdown">Intermediate</a></li>
+                <li><a href="excel-advanced.html" class="dropdown">Advanced</a></li>
+              </ul>
+            </div>
+          </div>  -->         
+        </li>    
       </ul>
-      </li>
-    </nav>
 
+      </nav>
 
 
     <main>     
-      <h1 id="hello" class="top-text"><img src="excel2010.png" class="top-image" />   Excel</h1>
+      <h1 id="hello" class="top-text"><img src="excel2010.png" class="top-image" />   Work Smart with Excel</h1>
       <p>Tips and tricks for Excel</p>
-      <h2 id="get-started">What is Excel?</h2>
+      <h2 id="get-started">Interesting facts about Excel</h2>
+      <h3><strong>Excel. </strong> <strong class="text-muted">A grid interface to organize nearly any type of information.</strong></h3>
+      <p> 
+        Do you know Excel is Microsoft’s first Office application which was originally released under the name <strong>Multiplan </strong> in 1982, Microsoft changed the name to Excel when first releasing it for the Macintosh in 1985.
+        Since Excel was initially launched on the Macintosh, its first release for Windows in 1987 was already version 2.0.        
+      </p>
+      <h3><strong>Excel. </strong> <strong class="text-muted"> Ability to handle 1,048,576 rows by 16,384 columns for each worksheet.</strong></h3>
       
+      <p>  
+        The power of Excel lies in it's flexibility to define the layout and structure of the information you want to manage. Excel is used widely in any financially-related activity.  The ability to create new spreadsheets where users can define custom formulas to calculate anything from a simple quarterly forecast to a full corporate annual report makes Excel highly appealing. Other applications include tracking like a list of sales leads, project status reports, contact lists,  invoicing and statistical analysis with large data sets. Let's see how it works! 
+      </p> 
 
-      <h2>Tips and tricks for Excel 2010</h2>
+      <h2>Tips and tricks</h2>
       <dl id="tips-tricks-dl">
         <dt><a href="#excel-keyboard-shortcuts">Master keyboard shortcuts</a></dt>
-        <dt><a href="#Using Fil">Using Fill</a></dt>
+        <dt><a href="excel-practice.pdf">Hands-on Practice Guide (pdf)</a></dt>        
+        <dt><a href="#Using Fill">Using Fill</a></dt>
         <dt><a href="#Cell References">Cell References</a></dt>
         <dt><a href="#Naming Cells and Ranges">Naming Cells and Ranges</a></dt>
         <dt><a href="#Logical Functions">Logical Functions</a></dt>
@@ -102,6 +118,99 @@
         <dt><a href="#change-sound-settings">Change sound settings</a></dt>
         <dt><a href="#change-inactive-status">Change your inactive timeout status</a></dt>
       </dl>
+
+      <p id="excel-keyboard-shortcuts">
+        <i class="icon icon-star tips-and-tricks-icon"></i><b> Master those keyboard shortcuts.</b><br>
+        Some keyboard shortcuts for the most commonly used features in Excel.
+        <ul>
+          <li><strong>Ctrl+R:</strong> Reply to an email.</li>
+          <li><strong>Alt+R</strong> Reply All (in email), or switch to work week (in Calendar View).</li>
+          <li><strong>Alt+W</strong> Forward an email (in email), or switch to weekly calendar (in Calendar View).</li>
+          <li><strong>Alt+S</strong> Send an email.</li>
+          <li><strong>Ctrl+G</strong> (In calendarview) Opens "Go to date" dialog, to jump to any date in the Calendar.</li>
+        </ul><br>
+        <p>
+        It is also possible to switch between items in the <u>navigation pane</u>, by using <strong>Ctrl+</strong>(number in navigation pane).<br>
+        The navigation pane refers to the the <u>Mail, Calendar, Contacts and Tasks</u> links located in the bottom left hand corner. The numbering of the items commences from top to bottom, so in the example below, we would expect the following short cuts to switch between Mail, Calendar, Contacts and Tasks: <br>
+        </p>
+        <div id="keyboard-contents">
+          <div id="keyboard-left">
+            <strong>Ctrl + 1:</strong> Switch to email.<br>
+            <strong>Ctrl + 2:</strong> Switch to Calendar<br>
+            <strong>Ctrl + 3:</strong> Switch to Contats<br>
+            <strong>Ctrl + 4:</strong> Switch to Tasks<br>
+          </div>
+          <div id="keyboard-right">
+            <img src="short-cut-navigation-pane.jpg" class="img-thumbnail">
+          </div>
+        </div>
+        <a href="excel-cheatsheet.pdf">Cheatsheet with full list of Excel keyboard shortcuts (pdf)</a>
+      </p>       
+
+      <p id="Using Fill">
+        <i class="icon icon-star tips-and-tricks-icon"></i><b> Using Fill</b><br>
+        Some keyboard shortcuts for the most commonly used features in Outlook.
+        
+      </p>   
+
+      <p id="Cell References">
+        <i class="icon icon-star tips-and-tricks-icon"></i><b> Cell References </b><br>
+        Some keyboard shortcuts for the most commonly used features in Outlook.        
+      </p>   
+
+      <p id="Naming Cells and Ranges">
+        <i class="icon icon-star tips-and-tricks-icon"></i><b> Naming Cells and Ranges</b><br>
+        Some keyboard shortcuts for the most commonly used features in Outlook.
+        
+      </p>   
+
+      <p id="Logical Functions">
+        <i class="icon icon-star tips-and-tricks-icon"></i><b>Logical Functions</b><br>
+        Some keyboard shortcuts for the most commonly used features in Outlook.
+        
+      </p>   
+
+      <p id="Conditional Formats">
+        <i class="icon icon-star tips-and-tricks-icon"></i><b> Conditional Formats</b><br>
+        Some keyboard shortcuts for the most commonly used features in Outlook.
+        
+      </p>   
+
+      <p id="Control Worksheets">
+        <i class="icon icon-star tips-and-tricks-icon"></i><b> Control Worksheets</b><br>
+        Some keyboard shortcuts for the most commonly used features in Outlook.
+        
+      </p>   
+
+      <p id="Find And Replace">
+        <i class="icon icon-star tips-and-tricks-icon"></i><b> Find And Replace</b><br>
+        Some keyboard shortcuts for the most commonly used features in Outlook.
+        
+      </p>   
+
+      <p id="Sort Data Lists">
+        <i class="icon icon-star tips-and-tricks-icon"></i><b> Sort Data Lists</b><br>
+        Some keyboard shortcuts for the most commonly used features in Outlook.
+        
+      </p>      
+
+      <p id="Filtering Lists">
+        <i class="icon icon-star tips-and-tricks-icon"></i><b> Filtering Lists</b><br>
+        Some keyboard shortcuts for the most commonly used features in Outlook.
+        
+      </p>      
+
+      <p id="Creating Charts">
+        <i class="icon icon-star tips-and-tricks-icon"></i><b> Creating Charts</b><br>
+        Some keyboard shortcuts for the most commonly used features in Outlook.
+       
+      </p>      
+
+      <p id="Format Charts">
+        <i class="icon icon-star tips-and-tricks-icon"></i><b> Format Charts</b><br>
+        Some keyboard shortcuts for the most commonly used features in Outlook.
+        
+      </p>      
 
       <h2 id="excel-best-practices">Best Practices*</h2>
 

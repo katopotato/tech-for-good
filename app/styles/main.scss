@@ -109,8 +109,13 @@ body.open {
 }
 
 .app-bar button img {
-  height: 24px;
-  width: 24px;
+  height: 10px;
+  width: 10px;
+}
+
+.app-bar button img, .app-bar a.btn img {
+  width: 32px;
+  height: 32px;
 }
 
 .app-bar button:hover {
@@ -148,7 +153,7 @@ ol {
 
 .navdrawer-container {
   z-index: 1;
-  position: fixed;
+  position: static;
   top: 0;
   bottom: 0;
   width: 250px;
@@ -158,24 +163,6 @@ ol {
   -webkit-transform: translate(-250px, 0);
           transform: translate(-250px, 0);
   overflow-y: auto;
-
-  .dropdown{
-    min-width: 125px; /* Set width of the dropdown */
-    background: #3367D6;
-    display: block;
-    p.box-shadow();
-    left: -999em;
-    margin-left: -65px;
-    position: absolute;
-    top: 30px;
-    width: 130px;
-}
-ul li:hover ul.dropdown{
-    display: block; /* Display the dropdown */
-}
-ul li ul.dropdown li{
-    display: block;
-}
 }
 
 .navdrawer-container.open {
@@ -226,6 +213,7 @@ main {
 
 .navdrawer-container ul li::before {
   content: none;
+  display: none;
 }
 
 .navdrawer-container ul li a:hover {
@@ -382,3 +370,4 @@ main {
   src: url(/fonts/RobotoCondensed-BoldItalic.eot);
   src: local('Roboto Condensed Bold Italic'), local('RobotoCondensed-BoldItalic'), url(/fonts/RobotoCondensed-BoldItalic.eot) format('embedded-opentype'), url(/fonts/RobotoCondensed-BoldItalic.woff) format('woff');
 }
+
